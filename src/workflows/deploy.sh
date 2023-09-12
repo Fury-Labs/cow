@@ -40,7 +40,9 @@ sleep 60
 
 yarn verify:etherscan --network rinkeby
 yarn verify:etherscan --network mainnet
+yarn verify:etherscan --network highbury
 yarn verify:tenderly --network xdai
+
 
 if [ -n "$GIT_BRANCH" ]; then
   GIT_USERNAME="GitHub Actions"

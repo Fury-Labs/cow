@@ -126,6 +126,11 @@ export default {
       ...sharedNetworkConfig,
       chainId: 100,
     },
+    highbury: {
+      url: "https://highbury.furya.io",
+      ...sharedNetworkConfig,
+      chainId: 710,
+    },
   },
   namedAccounts: {
     // Note: accounts defined by a number refer to the the accounts as configured
@@ -134,12 +139,12 @@ export default {
     owner: {
       // The contract deployment addresses depend on the owner address.
       // To have the same addresses on all networks, the owner must be the same.
-      default: "0x6Fb5916c0f57f88004d5b5EB25f6f4D77353a1eD",
+      default: "0x2cA5DdAEA2933C2Be38d4c613dA26C002E6F4316",
       hardhat: 1,
       localhost: 1,
     },
     manager: {
-      default: "0x6Fb5916c0f57f88004d5b5EB25f6f4D77353a1eD",
+      default: "0x2cA5DdAEA2933C2Be38d4c613dA26C002E6F4316",
       hardhat: 2,
       localhost: 2,
     },
